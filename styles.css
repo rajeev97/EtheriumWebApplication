@@ -15,7 +15,7 @@ p {
   margin: 35px;
 }
 .navbar {
-  background-color: rgba(255,255,255,0.95);
+  background-color: #8DDEF9;
 }
 li {
   display: list-item;
@@ -53,10 +53,10 @@ li {
 }
 
 .navbar {
-  background-color:rgba(255,255,255,0.95);
+  background-color:#8DDEF9;
 	border-bottom-width:0;
   border-color:#5B2062;
-  color: black;
+  color: #010881;
   font-weight: 600;
 }
 
@@ -151,7 +151,11 @@ a, a:hover {
 #events {
   padding-top: 50px;
 }
-
+#login{
+    background-color: #8DDEF9;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
 #flyer {
   max-height: 400px;
   margin: auto;
@@ -170,4 +174,15 @@ a, a:hover {
   margin-top: 20px;
   margin-bottom: 0px;
   padding-bottom: 0;
+}
+.title-new{
+  color: #010881;
+  font-size: 100px;
+}
+.text-color{
+  color: #010881;
+}
+.sub-text{
+  font-family: 'Satisfy', cursive;
+  font-style: italic;
 }
