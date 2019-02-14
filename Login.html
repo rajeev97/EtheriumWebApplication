@@ -31,6 +31,19 @@
   <script src="https://use.fontawesome.com/fe8627a504.js"></script>
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
+  <script>
+    function acknowledgement()
+    {
+      var admin="1234";
+      var value=String(document.getElementById('Username').value);
+      if(value!=admin){
+        window.alert("You do not have permissions from the administrator");}
+      else{
+      window.alert("Thank you for entering your details!");}
+    }
+
+
+  </script>
   <!-- Navbar content -->
     <nav class="navbar navbar-fixed-top">
       <div class="container-fluid">
@@ -68,14 +81,13 @@
           <div class="form-group">
             <label for="Username">Username</label>
             <input type="Username" class="form-control" id="Username" placeholder="Enter Account Number" name="Username">
-
           <div class="form-group form-check">
             <label class="form-check-label">
               <input class="form-check-input" type="checkbox" name="remember"> Remember me
            </label>
          </div>
         </div>
-         <button type="submit" class="btn btn-primary">Submit</button>
+         <button type="submit" onclick="acknowledgement()" class="btn btn-primary">Submit</button>
        </form>
      </div>
     </div>
