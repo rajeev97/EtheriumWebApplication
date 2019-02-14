@@ -1,0 +1,14 @@
+.name-product{
+  font-size: 13px;
+  color: #010881;
+  text-decoration-color: #010881;
+  text-emphasis: bold;
+}
+
+button2:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  color: #010881;
+}
+.btn-primary{
+  background-color: #010881;
+}
