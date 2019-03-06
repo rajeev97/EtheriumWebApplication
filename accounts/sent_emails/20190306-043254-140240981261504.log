@@ -1,0 +1,26 @@
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Subject: Password reset on 127.0.0.1:8000
+From: webmaster@localhost
+To: svpshreya@gmail.com
+Date: Wed, 06 Mar 2019 04:32:54 -0000
+Message-ID: 
+ <155184677451.3884.6391187545018992856@shreya-HP-ENVY-x360-m6-Convertible>
+
+
+You're receiving this email because you requested a password reset for your user account at 127.0.0.1:8000.
+
+Please go to the following page and choose a new password:
+
+http://127.0.0.1:8000/accounts/reset/MQ/54e-3fc92a736bbffa2d7c8d/
+
+Your username, in case you've forgotten: shreya
+
+Thanks for using our site!
+
+The 127.0.0.1:8000 team
+
+
+
+-------------------------------------------------------------------------------
